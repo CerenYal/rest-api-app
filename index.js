@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Hello!')
+    res.send('Welcome and have fun 🎈🎈🎈')
 })
 
 app.get('/api', (req, res) => {
